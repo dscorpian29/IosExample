@@ -1,0 +1,6 @@
+#!/bin/sh
+jazzy \
+  --clean \
+  --umbrella-header BugfenderSDK.framework/Headers/BugfenderSDK.h \
+  --framework-root . \
+  --output docs
